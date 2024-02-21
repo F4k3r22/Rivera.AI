@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rivera.AI - Innovación en Inteligencia Artificial</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("Recursos/rivera.png");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Rivera.AI</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Misión</a>
+      <a href="#vision" class="w3-bar-item w3-button">Visión</a>
+      <a href="#team" class="w3-bar-item w3-button">Sobre Nosotros</a>
+      <a href="#work" class="w3-bar-item w3-button">Nuestro Producto</a>
+      <a href="#plan" class="w3-bar-item w3-button">Plan a Largo Plazo</a>
+      <a href="#pricing" class="w3-bar-item w3-button">Limitaciones Actuales</a>
+      <a href="#demo" class="w3-bar-item w3-button">Demostraciones de Chat LMU</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contacto</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Misión</a>
+  <a href="#vision" onclick="w3_close()" class="w3-bar-item w3-button">Visión</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">Sobre Nosotros</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">Nuestro Producto</a>
+  <a href="#plan" onclick="w3_close()" class="w3-bar-item w3-button">Plan a Largo Plazo</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">Limitaciones Actuales</a>
+  <a href="#demo" onclick="w3_close()" class="w3-bar-item w3-button">Demostraciones de Chat LMU</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contacto</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">¡Bienvenido a Rivera.AI!</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">¡Bienvenido a Rivera.AI!</span><br>
+    <span class="w3-large">Descubre cómo estamos transformando el mundo de la IA para el gran público.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Más información</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    
+  </div>
+</header>
+
+<!-- Misión Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">Misión</h3>
+  <p class="w3-center w3-large">En Rivera.AI nos dedicamos a desafiar los límites de la inteligencia artificial, llevando la innovación a todos los rincones del mundo. Nuestra misión es democratizar el acceso a la inteligencia artificial sin restricciones ni censura, desarrollando y ofreciendo modelos de vanguardia al gran público. Nos comprometemos a establecer alianzas estratégicas con laboratorios de inteligencia artificial para impulsar el desarrollo conjunto de tecnologías disruptivas que mejoren la vida de las personas.</p>
+</div>
+
+<!-- Visión Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="vision">
+  <h3 class="w3-center">Visión</h3>
+  <p class="w3-center w3-large">Nuestra visión en Rivera.AI es liderar la revolución de la inteligencia artificial, transformando la manera en que interactuamos con la tecnología y el mundo que nos rodea. Como pioneros en el desarrollo de modelos de inteligencia artificial sin censura, nos esforzamos por construir un futuro donde la innovación y el progreso sean accesibles para todos. A largo plazo, buscamos establecer alianzas globales con laboratorios y comunidades de inteligencia artificial, ofreciendo nuestros datacenters como plataforma para el entrenamiento colaborativo de modelos avanzados. A través de estas colaboraciones, aspiramos a crear productos disruptivos que redefinan los estándares de la industria y mejoren la calidad de vida a nivel mundial.</p>
+</div>
+
+<!-- Sobre Nosotros Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">Sobre Nosotros</h3>
+  <p class="w3-center w3-large">Rivera.AI fue fundada por Fredy Alexander Rivera Acevedo con el objetivo de llevar la inteligencia artificial sin censura al mundo. Con un enfoque en la innovación y la colaboración, estamos comprometidos a impulsar el desarrollo de tecnologías que desafíen los límites establecidos.</p>
+</div>
+
+<!-- Nuestro Producto Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">Nuestro Producto</h3>
+  <p class="w3-center w3-large">Chat LMU (Lenguage Model Uncensored) es nuestro primer producto, construido bajo el modelo de Llama 2 de Meta AI y re-entrenado con nuevos datasets sin censura. Chat LMU funciona como un chatbot implementado en una aplicación web, ofreciendo interacciones sin restricciones. Además, ofrecemos una variante del producto que permite la generación de imágenes mediante un simple comando antes del prompt.</p>
+</div>
+
+<!-- Nuestro Producto Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="plan">
+    <h3 class="w3-center">Plan a Largo Plazo</h3>
+    <p class="w3-center w3-large">Nuestro plan a largo plazo es establecer alianzas con laboratorios y comunidades de inteligencia artificial, ofreciendo nuestros datacenters como plataforma para el entrenamiento colaborativo de modelos avanzados. Buscamos colaborar con equipos de investigación para desarrollar nuevas funciones para Chat LMU y crear nuevos productos que revolucionen la industria.</p>
+  </div>
+  
+
+<!-- Limitaciones Actuales Section -->
+<div class="w3-container" style="padding:128px 16px" id="pricing">
+  <h3 class="w3-center">Limitaciones Actuales</h3>
+  <p class="w3-center w3-large">Actualmente, nos enfrentamos a limitaciones en términos de equipo, infraestructura y capital. Para continuar desarrollando Chat LMU y expandir nuestras operaciones, necesitamos aumentar nuestro equipo con desarrolladores backend, frontend e infraestructura, así como asegurar recursos financieros para nuestros datacenters y establecer alianzas con laboratorios de inteligencia artificial.</p>
+</div>
+
+<!-- Demostraciones de Chat LMU Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="demo">
+    <h3 class="w3-center">Demostraciones de Chat LMU</h3>
+    <p class="w3-center w3-large">A continuación, puedes encontrar demostraciones interactivas de Chat LMU. ¡Explora la funcionalidad del producto y descubre su potencial!</p>
+  
+    <!-- Contenedor para las imágenes -->
+    <div class="w3-row-padding" style="margin-top:64px">
+      <!-- Primera imagen -->
+      <div class="w3-margin-bottom">
+        <img src="Recursos/demo1.png" alt="Imagen 1" style="width:100%" onclick="onClick(this)">
+      </div>
+      <!-- Segunda imagen -->
+      <div class="w3-margin-bottom">
+        <img src="Recursos/demo2.png" alt="Imagen 2" style="width:100%" onclick="onClick(this)">
+      </div>
+    </div>
+  </div>
+  
+
+<!-- Contacto Section -->
+<div class="w3-container" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">Contacto</h3>
+  <p class="w3-center w3-large">¿Interesado en colaborar o tienes alguna pregunta? ¡Contáctanos!</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> San Vicente, El Salvador</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Teléfono: +50376258174</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Correo electrónico: riveraaai200678@gmail.com</p>
+    
+    </div>
+    <div class="w3-half">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:510px;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Ir arriba</a>
+  
+  <p>Rivera.AI - Innovación en Inteligencia Artificial</p>
+</footer>
+
+  
+  
+<script>
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("fullScreenImage").src = element.src;
+  document.getElementById("modalFullScreen").style.display = "block";
+  document.getElementById("modalFullScreen").style.cursor = "pointer";
+}
+
+// Close the full screen modal
+function closeModalFullScreen() {
+  document.getElementById("modalFullScreen").style.display = "none";
+}
+
+
+</script>
+
+  
+</body>
+</html>
